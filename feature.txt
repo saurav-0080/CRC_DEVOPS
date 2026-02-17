@@ -4,7 +4,7 @@ num = 1
 print("First 7 odd Armstrong numbers:") #armstrong no 
 
 while count < 7:
-    digits = str(num)
+    digits = str(num)# string number
     power = len(digits)
     total = 0
 
