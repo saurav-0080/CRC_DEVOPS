@@ -1,0 +1,18 @@
+count = 0
+num = 1
+
+print("First 7 odd Armstrong numbers:")
+
+while count < 7:
+    digits = str(num)
+    power = len(digits)
+    total = 0
+
+    for d in digits:
+        total += int(d) ** power
+
+    if total == num and num % 2 != 0:
+        print(num)
+        count += 1
+
+    num += 1
