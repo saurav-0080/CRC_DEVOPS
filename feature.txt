@@ -1,7 +1,7 @@
 count = 0
 num = 1
 
-print("First 7 odd Armstrong numbers:")
+print("First 7 odd Armstrong numbers:") #armstrong no 
 
 while count < 7:
     digits = str(num)
